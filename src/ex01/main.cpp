@@ -6,7 +6,7 @@
 /*   By: faaraujo <faaraujo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/06 18:58:04 by faaraujo          #+#    #+#             */
-/*   Updated: 2024/09/07 20:50:32 by faaraujo         ###   ########.fr       */
+/*   Updated: 2024/09/07 20:56:14 by faaraujo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int main()
 	std::cout << sp.shortestSpan() << std::endl;
 	// std::cout << sp.longestSpan() << std::endl;
 	
-	sp.getNumber();
+	sp.getNumbers();
 	
 	return 0;
 }

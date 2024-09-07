@@ -6,7 +6,7 @@
 /*   By: faaraujo <faaraujo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/06 19:03:40 by faaraujo          #+#    #+#             */
-/*   Updated: 2024/09/07 20:52:18 by faaraujo         ###   ########.fr       */
+/*   Updated: 2024/09/07 20:56:22 by faaraujo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ class Span
 		long int shortestSpan();
 		// long int longestSpan();
 		// void addAnyNumbers();
-		void getNumber();
+		void getNumbers();
 };
 
 Span::Span(): _maxIntegers(0), _currentStored(0)
@@ -142,7 +142,7 @@ long int Span::shortestSpan()
 
 // }
 
-void Span::getNumber()
+void Span::getNumbers()
 {
 	for (size_t i = 0; i < _integers.size(); i++)
 		std::cout << _integers[i] << " ";
