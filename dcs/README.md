@@ -52,7 +52,7 @@
 
 ## std::stack (Adapter Container)
 - Stacks são um tipo de adaptador de contêiner, projetados especificamente para operar em um contexto LIFO (last-in first-out), onde os elementos são inseridos e extraídos apenas de uma extremidade do contêiner.
-- `stack`s são implementados como adaptadores de contêiner , que são classes que usam um objeto encapsulado de uma classe de contêiner específica como seu contêiner subjacente , fornecendo um conjunto específico de funções de membro para acessar seus elementos. Os elementos são empurrados / retirados da "parte de trás" do contêiner específico, que é conhecido como o topo da pilha.
+- `stack`s são implementados como **adaptadores de contêiner**, que são classes que usam um objeto encapsulado de uma classe de contêiner específica como seu **contêiner subjacente**, fornecendo um conjunto específico de funções de membro para acessar seus elementos. Os elementos são ***empurrados/retirados*** (pushed/poped) da "***parte de trás***" (back) do contêiner específico, que é conhecido como o topo da pilha.
 - O contêiner subjacente pode ser qualquer um dos modelos de classe de contêiner padrão ou alguma outra classe de contêiner projetada especificamente. O contêiner deve suportar as seguintes operações: `empty`, `size`, `back`, `push_back`, `pop_back`.
 - As classes de contêiner padrão `vetor`, `deque` e `list` atende a esses requisitos. Por padrão, se nenhuma classe de contêiner for especificada para uma determinada instanciação de classe `stack`, o contêiner padrão `deque` é usado.
 - `std::stack` Uso recomendado:
@@ -112,3 +112,4 @@ Resource | Source
 [Most useful C++ STL algorithms](https://www.geeksforgeeks.org/c-magicians-stl-algorithms/) | `Site`
 [Templates tutorial](https://cplusplus.com/doc/oldtutorial/templates/) | `Site`
 [Exception handling](https://cplusplus.com/reference/stdexcept/) | `Site`
+[deque](https://cplusplus.com/reference/deque/deque/) | `Site`
