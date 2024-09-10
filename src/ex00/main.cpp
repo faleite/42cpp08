@@ -6,7 +6,7 @@
 /*   By: faaraujo <faaraujo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/04 20:19:57 by faaraujo          #+#    #+#             */
-/*   Updated: 2024/09/05 21:09:30 by faaraujo         ###   ########.fr       */
+/*   Updated: 2024/09/10 17:16:36 by faaraujo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	main(void)
 		std::cout << "Number search:" << std::endl;
 		try
 		{
-			std::vector<int>::iterator it = easyfind(myVector, 7);
+			std::vector<int>::iterator it = easyfind(myVector, 42);
 			int index = std::distance(myVector.begin(), it);
 			std::cout << "Found " << *it
 			<< " at index " << index << std::endl;
