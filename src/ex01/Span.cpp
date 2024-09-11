@@ -6,7 +6,7 @@
 /*   By: faaraujo <faaraujo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/06 19:03:40 by faaraujo          #+#    #+#             */
-/*   Updated: 2024/09/08 17:15:44 by faaraujo         ###   ########.fr       */
+/*   Updated: 2024/09/11 19:04:55 by faaraujo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,7 +74,7 @@ long int Span::shortestSpan()
 	long int getSpan = std::numeric_limits<long int>::max();
 	for (size_t i = 1; i < sortInt.size(); ++i)
 	{
-		long int span = sortInt[i] - sortInt[i - 1];
+		unsigned int span = sortInt[i] - sortInt[i - 1];
 		if (span < getSpan)
 			getSpan = span;
 	}
