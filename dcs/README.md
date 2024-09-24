@@ -3,13 +3,12 @@
 
 ## Index
 
-01. **[Containers]()**
-02. **[vector](#stdvector-sequence-container)**
-03. **[list](#stdlist-sequence-container)**
-04. **[stack](#stdstack-adapter-container)**
-05. **[map](#stdmap-associative-container)**
-06. **[iterators](#iterators)**
-07. **[Resources](#resources)**
+01. **[vector](#stdvector-sequence-container)**
+02. **[list](#stdlist-sequence-container)**
+03. **[stack](#stdstack-adapter-container)**
+04. **[map](#stdmap-associative-container)**
+05. **[iterators](#iterators)**
+06. **[Resources](#resources)**
 
 ## std::vector (Sequence Container)
 - **`std::vector`** é um contêiner de sequência que é dinamicamente redimensionável.

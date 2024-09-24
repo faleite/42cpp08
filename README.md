@@ -12,8 +12,7 @@ templated containers, iterators and algorithms in CPP.*
 
  Skills | Grade |
 :------:|:-----:|
-[**Imperative programming**] [**Object-oriented programming**] [**Rigor**] | **Subscribed :atom:**
-<!-- **:white_check_mark: 100%** -->
+[**Imperative programming**] [**Object-oriented programming**] [**Rigor**] | **:white_check_mark: 100%**
 
 * **[Introduction](#introduction)**
   * **[General rules](#general-rules)**
@@ -86,6 +85,3 @@ Resource | Source
 [C++ Roadmap](https://roadmap.sh/cpp) | `roadmap.sh`
 [Wiki 42cpp](https://github.com/qingqingqingli/CPP/wiki) | `GitHub`
 [Os 4 Pilares da Orientação a Objetos](https://www.youtube.com/live/j2w8sMWhngo?si=eVnd-m_T-J3S8XpA) | `YouTube`
-<!-- [Modules 00-04](https://github.com/pin3dev/42_CPP_Modules_00-04) | `GitHub` 
-[piscine CPP](https://github.com/paulahemsi/piscine_cpp) | `GitHub` -->
-
